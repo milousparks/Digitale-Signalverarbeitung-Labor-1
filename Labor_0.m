@@ -1,5 +1,6 @@
 %Labor 0 
-%Milan Daniel Larsen
+%Milan Daniel Larsen 581829
+% Dany Karel Kenfack Nguemo 571705
 
 % 0.1 Rechnen mit Vektoren
 %a
