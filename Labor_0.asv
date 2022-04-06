@@ -116,7 +116,6 @@ set(gca,'FontSize',15)
 
 %%
 % 0.6 Kontrollflussanweisung
-clear all;
 prompt='Enter Vector:';
 x = input(prompt);
 xorg=x;
@@ -148,11 +147,5 @@ for i=1:n(2)-1
     end
 end
 end
-input=['Vektor eingegeben: ', '[',num2str(xorg),'}' ];
+input=['Vektor eingegeben:', ''num2str(xorg) ];
 disp(input)
-leng=['Vektorlänge: ', num2str(n(2))];
-disp(leng)
-maxstr=['Maximalwert: ', num2str(max),' an Position ',num2str(maxI)];
-disp(maxstr)
-minstr=['Minimalwert: ', num2str(min),' an Position ',num2str(minI)];
-disp(minstr)
